@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 133, 133);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    margin-top: -5.5%;
+}
+#logo{
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#profiles{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 15px;
+}
+#p1 a, #p2 a, #p3 a, #p4 a, #p5 a{
+    padding:5px;
+    cursor: pointer;
+    transition: width 1s ease;
+}
+#p1:hover a{
+    color:white;
+    background-color: black;
+    width: 120%;
+}
+#p2:hover a{
+    color:white;
+    background-color: black;
+}
+#p3:hover a{
+    color:white;
+    background-color: black;
+}
+#p4:hover a{
+    color:white;
+    background-color: black;
+}
+#p5:hover a{
+    color:black;
+    background-color: white;
+}
+
+#about{
+    text-align: center;
+    margin-top: 5.5%;
+    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: xx-large;
+    background-color: beige;
+    color: black;
+}
+#profiles a{
+    text-decoration: none;
+    color: black;
+}
+#bio{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(57, 133, 133);
+}
+#image img{
+    height: 350px;
+     width: 250px;
+     margin: 50%;
+     border-radius: 50px;
+}
+#biodata{
+    margin-top: 12%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: large;
+}
+#biodata a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #fff;
+    background-color: orangered;
+    padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+   #profiles{
+    width: 100%;
+   }
+   #bio{
+    width: 90%;
+   }
+   #biodata{
+    width: 100%;
+   }
+   #profilo{
+    width: 150%;
+   }
+   #contact{
+    width: 90%;
+   }
+}
+#profilo{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#profilo h3, #profilo p{
+    text-align: center;
+    margin-top: -2%;
+}
+#title{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 35px;
+}
+#works{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 350px;
+    margin-left: 15%;
+}
+#w{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#w img{
+    height:50px;
+    width: 50px;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    margin-right: 50%;
+}
+#skills{
+    width: 100%;
+    background-color:  rgb(57, 133, 133);
+}
+#s_title{
+    background-color: rgb(57, 133, 133);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5% 5% 0 5%;
+}
+#tsl{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+}
+
+#techskills p{
+    font-size: 25px;
+}
+#langs p{
+    font-size: 25px;
+}
+#li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -10%;
+
+}
+#li1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: -15%;
+}
+progress{
+    border: 2px solid black;
+    height: 15px;
+    width: 170%;
+}
+#name img,#num img,#mail img{
+    height: 40px;
+    width: 40px;
+}
+#num img{
+    border-radius: 50px;
+}
+#cnt{
+    margin-top: 3%;
+    text-align: center;
+    font-weight: bolder;
+    color: cadetblue;
+    font-style: italic;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+#name{
+    text-align: center;
+    font-style: italic;
+}
+#num{
+    text-align: center;
+    font-style: italic;
+}
+#mail{
+    text-align: center;
+    font-style: italic;
+}
