@@ -394,7 +394,8 @@ span:hover{
         display: block;
         width: fit-content;
         margin: auto;
-        float: inline-end;
+        float: left;
+        position: fixed;
     }
     #dropdown{
         display: block;
@@ -412,6 +413,7 @@ span:hover{
     .toggle_btn{
         /* float: left; */
         margin: auto;
+        position: fixed;
     }
     #about{
         margin-bottom: 0%;
