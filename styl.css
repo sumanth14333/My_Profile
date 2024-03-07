@@ -372,7 +372,7 @@ span:hover{
 }
 #dropdown{
     display: none;
-    position: absolute;
+    position: fixed;
     right: 2rem;
     top: 190px;
     width: 300px;
@@ -401,6 +401,7 @@ span:hover{
     #dropdown{
         display: block;
         margin-top: -50px;
+        position: fixed;
         margin-right: -50px;
     }
 }
@@ -408,6 +409,7 @@ span:hover{
 @media (max-width:576px){
     #dropdown{
         left: 6rem;
+        position: fixed;
         width: unset;
         float: left;
     }
