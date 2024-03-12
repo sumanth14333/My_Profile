@@ -91,10 +91,12 @@ border-bottom: 3px solid rgb(0, 0, 0);
     line-height: 100px;
     margin-bottom: 2px;
     cursor: pointer;
+    transition: 2s ease;
     color:rgb(238, 75, 15);
 }
 #wish:hover{
-    border-bottom: 2px solid #fff;
+    scale: 1.02;
+    text-decoration: underline;
 }
 
 #content{
@@ -290,6 +292,10 @@ progress{
 
 /*contact*/
 
+#contact{
+    position: relative;
+    top: 100px;
+}
 #name img,#num img,#mail img{
     height: 40px;
     width: 40px;
@@ -403,6 +409,20 @@ span:hover{
         margin-top: -50px;
         position: fixed;
         margin-right: -50px;
+    }
+    #bio #image img{
+        width: 150px;
+        height: 200px;
+        margin-left: 22%;
+        margin-bottom: -8%;
+    }
+    #bio #biodata p{
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: -20%;
+        margin-right: 25%;
+        padding: 0%;
+        line-height: 20px;
     }
 }
 
