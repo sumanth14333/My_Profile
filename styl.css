@@ -90,8 +90,6 @@ border-bottom: 3px solid rgb(0, 0, 0);
     letter-spacing: 0.1px;
     line-height: 100px;
     margin-bottom: 2px;
-    cursor: pointer;
-    transition: 2s ease;
     color:rgb(238, 75, 15);
 }
 #wish:hover{
@@ -105,11 +103,7 @@ border-bottom: 3px solid rgb(0, 0, 0);
     letter-spacing: 0.4px;
     line-height: 35px;
 }
-#content:hover{
-    border-left: 2px solid #fff;
-    border-right: 2px solid #fff;
-    padding: 10px 20px;
-}
+
 
 /*bio*/
 
@@ -393,7 +387,7 @@ span:hover{
     height: 240px;
 }
 
-@media (max-width: 992px){
+@media screen and (min-width: 412px) and (max-width: 912px){
     #header{
         display: none;
     }
@@ -410,162 +404,41 @@ span:hover{
         position: fixed;
         margin-right: -50px;
     }
-    #bio #image img{
-        width: 150px;
-        height: 200px;
-        margin-left: 22%;
-        margin-bottom: -8%;
-    }
-    #bio #biodata p{
-        font-size: 10px;
-        margin-top: 50px;
-        margin-left: -20%;
-        margin-right: 25%;
-        padding: 0%;
-        line-height: 20px;
-    }
-}
 
-@media (max-width:576px){
-    #dropdown{
-        left: 6rem;
-        position: fixed;
-        width: unset;
-        float: left;
-    }
-    .toggle_btn{
-        /* float: left; */
-        margin: auto;
-        position: fixed;
-    }
     #about{
-        margin-bottom: 0%;
+        margin-bottom: -50%;
     }
+
     #about #wish{
-        font-size: 25px;
+        font-size: 30px;
+        margin-top: -50%;
     }
     #content{
         font-size: 10px;
-        line-height: 20px;
-        padding-bottom: 0px;
-        margin-bottom: -200%;
-        
+        letter-spacing: 0.4px;
+        line-height: 15px;
+    }
+    #about .content{
+        max-width: 100vh;
+        max-height: 150px;
+        padding: 20px;
+        border: 2px solid #fff;
+    }
+    #bio #image{
+        margin-top: 10%;
     }
     #bio{
-        display: block;
-        margin-top: -30%;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100vh;
     }
     #bio #image img{
-        width: 150px;
-        height: 200px;
-        margin-left: 22%;
-        margin-bottom: -8%;
+        width: 100px;
+        height: 100px;
     }
     #bio #biodata p{
         font-size: 10px;
-        margin-left: -25%;
-        margin-right: 25%;
-        padding: 0%;
         line-height: 20px;
-    }
-    #biodata a{
-        color: #fff;
-        background-color: orangered;
-        font-size: 20px;
-        margin-left: -12px;
-        border-radius: 25px;
-        box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
-    }
-    #biodata a:hover{
-        color: orangered;
-        background-color: #fff;
-        font-size: 25px;
-        border-radius: 25px;
-        box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
-    }
-    #title h3{
-        font-size: 20px;
-    }
-    #title p{
-        font-size: 10px;
-        margin-top: -10%;
-    }
-    #works{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        flex-wrap: wrap;
-        margin-bottom: 15%;
-    }
-    .w{
-        width:40%;
-        line-height: normal;
-        height: 200px;
-        margin-right: 5%;
-        margin-bottom: 10%;
-    }
-    .w h3{
-        font-size: 10px;
-    }
-    .w p{
-        font-size: 5px;
-        line-height: normal;
-    }
-    .w img{
-        height:25px;
-        width: 25px;
-        transition: 0.5s ease;
-    }
-    .w img:hover{
-        scale: 1.1;
-        box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
-    }
-    #s_title{
-        font-size: 15px;
-        text-align: center;
-        margin-left: -12%;
-    }
-    #techskills p{
-        font-size: 10px;
-    }
-    #langs p{
-        font-size: 10px;
-    }
-    #li{
-        padding-top: -5px;
-        padding-bottom: -5px;
-        margin-left: -15%;
-    
-    }
-    #li1{
-        padding-bottom: 5px;
-        padding-top: 5px;
-        margin-right: 60px;
-    }
-    progress{
-        width: 100px;
-    }
-    #contact{
-        display: none;
     }
 }
 
-.more{
-    margin-top: 3%;
-    margin-bottom: -5%;
-    margin-left: 40%;
-}
-.more>a{
-    text-decoration: none;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
-    padding: 10px 30px;
-    border: 2px solid rgb(248, 242, 242);
-    border-radius: 50%;
-    transition: 0.8s ease-in-out;;
-}
-.more>a:hover{
-    color: orangered;
-    background-color: #fff;
-}
